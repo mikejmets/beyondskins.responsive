@@ -26,6 +26,7 @@
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />    
     <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+    <copy attributes="src" css:content="#portal-logo img" css:theme="#logo img" />
     <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" /> 
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
